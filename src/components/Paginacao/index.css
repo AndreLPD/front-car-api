@@ -1,0 +1,20 @@
+.list-cars .Paginacao{
+    display: flex;
+    justify-content: space-between;
+}
+.list-cars .Paginacao button{
+    border: 0;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: #3d418e;
+    color: #fff;
+}
+.list-cars .Paginacao button:hover{
+    opacity:0.7;
+}
+
+.list-cars .Paginacao button:disabled{
+    opacity: 0.5;
+}
+

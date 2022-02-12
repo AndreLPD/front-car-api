@@ -1,0 +1,57 @@
+.list-cars{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+.list-cars article{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+.list-cars article p{
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+.list-cars article a{
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #3d418e;
+    background: none;
+    margin-top: 10px;
+    color: #3d418e;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: all 0.2s;
+}
+.list-cars article a:hover{
+    background-color: #3d418e;
+    color: #fff;
+}
+.list-cars .Paginacao{
+    display: flex;
+    justify-content: space-between;
+}
+.list-cars .Paginacao button{
+    border: 0;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: #3d418e;
+    color: #fff;
+}
+.list-cars .Paginacao button:hover{
+    opacity:0.7;
+}
+
+.list-cars .Paginacao button:disabled{
+    opacity: 0.5;
+}
+
