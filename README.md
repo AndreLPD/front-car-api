@@ -13,7 +13,6 @@ car-api: https://github.com/AndreLPD/car-api
 Contact: andre.luis.pessoa@gmail.com
 
 
-
 ## Available Scripts
 
 In the project directory, you can run:
